@@ -1,0 +1,31 @@
+# App For analytics over the Indian Agriculture dataset (made available by National Data and Analytics Platform, NITI Aayog)
+
+Created fews analytics for following based on the dataset shared
+
+1. Crops maximum and minimum production according to years
+2. Calculate Average Yield of the Crop between 1950 - 2020 and Average Cultivation Area of the Crop between 1950-2020
+
+Project Structure
+
+assignment/
+  ├── src/
+  │   ├── components/
+  │   │   └── Average.js
+  │   │   └── ProductionData.js
+  │   ├── App.css
+  │   ├── App.js
+  │   └── index.js
+  │   └── assets
+  |     └── Manufac_Dataset.json
+  |     └── production.png
+  |     └── average.png
+  ├── public/
+  │   └── index.html
+  ├── package.json
+
+3. Install dependencies:
+yarn install
+
+4. In the project directory, you can run:
+yarn start
+
